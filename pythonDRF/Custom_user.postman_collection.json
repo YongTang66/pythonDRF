@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "a1f909d0-2899-4948-a2fa-eee66131779b",
+		"name": "Custom_user",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34254488",
+		"_collection_link": "https://orange-firefly-640070.postman.co/workspace/DRF~cbd02524-1a5c-4392-a90e-aed7ee366a8e/collection/34254488-a1f909d0-2899-4948-a2fa-eee66131779b?action=share&source=collection_link&creator=34254488"
+	},
+	"item": [
+		{
+			"name": "users_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users_post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "create_post",
+					"host": [
+						"create_post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users_patch",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/users/4/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"users",
+						"4",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users_delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/users/4/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"users",
+						"4",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "phones_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/phones/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"phones",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "phones_post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phone_number\":\"1234345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/phones/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"phones",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "phones_patch",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/phones/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"phones",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "phones_delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/phones/1/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"phones",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
